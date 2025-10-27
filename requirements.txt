@@ -1,0 +1,33 @@
+# Core aiogram and async dependencies
+aiogram>=3.0,<4.0
+aiohttp>=3.9,<4.0
+
+# Database
+asyncpg>=0.29,<1.0
+sqlalchemy>=2.0,<3.0
+psycopg2-binary==2.9.9  # Зафиксировано на v2.9.9 (libpq v16) для совместимости с AMVERA PostgreSQL
+alembic>=1.12,<2.0
+
+# Scheduler
+APScheduler>=3.10,<4.0
+
+# Configuration and validation
+pydantic>=2.0,<3.0
+pydantic-settings>=2.0,<3.0
+python-dotenv>=1.0,<2.0
+
+# AI API clients
+openai>=1.0,<2.0
+google-generativeai>=0.3,<1.0
+
+# Monitoring and observability
+prometheus-client>=0.20,<1.0
+sentry-sdk>=2.0,<3.0
+
+# Development and testing
+pytest>=8.0,<9.0
+pytest-asyncio>=0.23,<1.0
+
+# Google Sheets export
+gspread>=6.0,<7.0
+google-auth>=2.0,<3.0
